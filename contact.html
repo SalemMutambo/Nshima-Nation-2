@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nshima Nation - Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Salem Mutambo">
+    <meta name="keywords" content="Nshima, Food, Restaurant, Web dev Practice, HTML">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        
+        
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="staff.html">Staff</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+             
+            </ul>
+        </nav>
+    </header>
+    
+    <main>  
+        <h1>Contact and Feedback</h1>
+            <h2>Contact Info</h2>
+         
+            
+                    <figure>
+                        <img src="images/rest.png" alt="Our Store" width="640" height="420">
+                        <figcaption><strong>Location:</strong> Lusaka, Zambia</figcaption>
+                    </figure>
+            
+
+                <li><strong>Phone:</strong> +260 977 977 977</li>
+                <li><strong>Email:</strong> info@nshimanation.com</li>
+            </ul>
+
+            <h2>Order Form</h2>
+                <form action="">
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                    <p> 
+                        <label for="fullName">Full Name:</label>
+                        <input type="text" name="fullName" id="fullName" autocomplete="on" required placeholder="John Doe">
+                    </p>
+                    <p> 
+                        <label for="email">Email Address:</label>
+                        <input type="email" name="email" id="email" autocomplete="on" required placeholder="someone@something.com">
+                    </p>
+                    <p> 
+                        <label for="Phone">Phone Number:</label>
+                        <input type="tel" name="Phone" id="Phone" autocomplete="on" required pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="097 097 0977">
+                    </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your Order</legend>
+                        <p>
+                            <label for="ntype">Nshima Type:</label>
+                            <select name="ntype" id="ntype">
+                            <optgroup label="Ususal">
+                                <option value="norm">Plain White</option>
+                                <option value="rm">Roller Meal</option>
+                            </optgroup>
+                                <optgroup label="Special">
+                                <option value="m">Millet</option>
+                                <option value="s">Sorghum</option>
+                                <option value="mg">Mixed Grain</option>
+                                </optgroup>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="vrel">Veggie Relish:</label>
+                            <input type="text" name="vrel" id="vrel" list="vrel-list">
+                           <datalist id="vrel-list">
+                            <option value="Rape" selected>Rape</option>
+                            <option value="Five Years">Five Years</option>
+                            <option value="Chibwabwa">Chibwabwa</option>
+                            <option value="Okra">Okra</option>
+                            <option value="Impwa">Impwa</option>
+                            <option value="Mpilu">Mpilu</option>
+                            <option value="Beans">Beans</option>
+                            <option value="Chinese Cabbage">Chinese Cabbage</option>
+                            <option value="Kanunka">Kanunka</option>
+                            <option value="Spinach">Spinach</option>
+                            <option value="Lumanda">Lumanda</option>
+                           </datalist>
+                        </p>
+                        <p>
+                            <label for="Mrel">Meat Relish:</label>
+                           <select id="mrel" name="mrel">
+                            <optgroup label="birds">
+                                <option value="V Chicken" selected>Village Chicken</option>
+                                <option value="Quail">Quail</option>
+                                <option value="B Chicken">Broiler Chicken</option>
+                                <option value="Duck">Duck</option>
+                                <option value="Ostrich">Ostrich</option>
+                            </optgroup>
+                            <optgroup label="dairy">
+                                <option value="Beef">Beef</option>
+                                <option value="T-Bone">T-Bone</option>
+                                <option value="Lamb">Lamb</option>
+                                <option value="Goat">Goat</option>
+                                <option value="pork">Pork</option>
+                            </optgroup>
+                            <optgroup label="wild">
+                                <option value="Game meat">Game meat</option>
+                                <option value="Crocodile">Crocodile</option>  
+                                <option value="Snake">Snake</option>
+                            </optgroup>
+                            <optgroup label="sausage">
+                                <option value="Beef Suasage">Beef Suasage</option>
+                                <option value="Hungarian">Hungarian</option>
+                                <option value="Vegiterian">Vegiterian</option>
+                                <option value="Cheesy Hungarian">Beef Suasage</option>
+                            </optgroup>
+                            
+                            
+                            
+                           </select>
+                        </p>
+                    <fieldset>
+                        <legend>Leave us a message</legend>
+                        <p>
+                            <label for="mess">Your Message</label>
+                            <textarea name="mess" id="mess" cols="30" rows="10">Hello!...</textarea>
+                        </p>
+                    </fieldset>
+                </form>
+    </main>
+        </body>
+    <a href="">Back to top</a> <br>
+    <a href="index.html">Back to home</a>
+    <p>Copyright &copy; of Nshima Nation</p>
+</html>
+    </body>
